@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    font-family: 'Arial Narrow', sans-serif;
+    border: border-box;    
+}
+
+.navbar { 
+    height: 100px;
+    background-color: black;
+    display: flex;
+
+}
+
+.nav-logo {
+    height: 100px;
+    width: 90px;
+}
+
+.logo{
+    background-image: url("FORMA-logo.png");
+    height: 100px;
+    width: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.border:hover {
+    border: 0.5px solid white;
+}
+
+/** box2 **/
+.add-MEN { 
+    color: white;
+    font-size: 20px;
+}
+
+.nav-men {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    margin-left: 50px;
+
+}
+
+.add-WOMEN { 
+    color: white;
+    font-size: 20px;
+}
+
+.nav-women {
+
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+
+.add-ACCESSORIES { 
+    color: white;
+    font-size: 20px;
+}
+
+.nav-accessories {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+/** box3 **/
+.nav-search { 
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 100px;
+    text-color: white;
+    border-radius: 60px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.input { 
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    width: 300px;
+    font-size: 20px;
+    text-anchor: white;
+    border-radius: 60px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+
+
+
+/** hero-section **/
+.hero-section {
+    background-image: url("hero-section.jpg");
+    background-size: cover;
+    height: 600px;
+}
