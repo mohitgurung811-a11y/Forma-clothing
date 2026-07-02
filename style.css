@@ -62,19 +62,19 @@
 .nav-accessories {
     display: flex;
     align-items: center;
-    width: 200px;
+    width: 120px;
 }
 
 /** box3 **/
 .nav-search { 
     display: flex;
     background-color: rgb(0, 0, 0);
-    width: 300px;
+    width: 350px;
     height: 100px;
-    text-color: white;
+    color: white;
     border-radius: 60px;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 260px;
 }
 
 .input { 
@@ -86,16 +86,136 @@
     text-anchor: white;
     border-radius: 60px;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 100px;
 }
-
-
-
-
 
 /** hero-section **/
 .hero-section {
     background-image: url("hero-section.jpg");
     background-size: cover;
     height: 600px;
+}
+
+/** shop-section **/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(197, 197, 197)
+}
+
+.box {
+    height: 360px;
+    width: 30%;
+    background-color: white;
+    font: Arial;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+
+.box-img {
+    height: 310px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/** shop-section2 **/
+.shop-section2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c5c5c5;
+    margin-top: 50px;
+}
+
+.box2 { 
+    Height: 360px;
+    width: 30%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box2-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-img2 {
+    height: 310px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/** footer-pannel **/
+.footer-pannel {
+    background-color: #c5c5c5;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.footer-pannel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+ul {
+    margin: 20px;
+}
+
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin: 10px;
+    color: #dddddd
+}
+    
+.footer-pannel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.logo {
+     background-image: url("FORMA-logo.png");
+    height: 100px;
+    width: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-pannel4 {
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+
+
+.pages{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 22px;
+}
+.copyright {
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 5px;
 }
